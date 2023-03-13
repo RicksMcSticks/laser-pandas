@@ -1,0 +1,29 @@
+body{
+    color:seashell
+}
+
+body {
+    background-image: url('https://img.freepik.com/free-vector/realistic-galaxy-background_52683-12122.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+button:hover{
+    background-color: red;
+    transform:rotate(3600deg);transition-duration: 2000ms;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    border: 5px black dashed;
+    margin: 10px;
+    text-align: center;
+}
+
+div > p {
+    color:white
+}
+
